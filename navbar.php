@@ -1,9 +1,3 @@
-<?php
-require_once 'config.php';
-session_start();
-ob_start();
-?>
-
 <header>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <div class="container">
@@ -24,22 +18,8 @@ ob_start();
                     </li>
                 </ul>
                 <div class="d-flex">
-                <?php if (isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] === true){ ?>
-                    <div class="dropdown text-start">
-                        <a href="#" class="d-block link-light text-decoration-none dropdown-toggle px-3" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-                            <span class="px-3_" href="#"><?= $_SESSION['name'] == NULL ? $_SESSION['idNumber'] : $_SESSION['name'] ?></span>
-                        </a>
-                        <ul class="dropdown-menu text-small" style="">
-                            <li><a class="dropdown-item" href="/account/panel.php">أعدادت الحساب</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="logout.php">تسجيل خروج</a></li>
-                        </ul>
-                    </div>
-                <?php }else { ?>
-                    <a class="btn btn-outline-primary me-2" href="register.php">تسجيل</a>
-                    <a class="btn btn-primary" href="login.php">دخول</a>
-                <?php } ?>
+                    <a class="btn btn-outline-primary me-2" href="login.php">دخول</a>
+                    <a class="btn btn-primary" href="register.php">تسجيل</a>
                 </div>
             </div>
         </div>
