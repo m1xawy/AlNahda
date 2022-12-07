@@ -1,10 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/control/login_control.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/register_control.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logout.php" afterDir="false" />
+    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="register &amp; login">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/album.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/brand/bootstrap-logo-white.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/brand/bootstrap-logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/carousel.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/custom.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/dashboard.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/form-validation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/navbar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/signin.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/js/dashboard.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/assets/js/form-validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/dashboard/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/head.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/login.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/navbar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AlNahda/register.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
@@ -49,7 +72,7 @@
       <updated>1670338290480</updated>
       <workItem from="1670338293177" duration="2550000" />
       <workItem from="1670403679649" duration="3000" />
-      <workItem from="1670403691776" duration="8488000" />
+      <workItem from="1670403691776" duration="9604000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670338931589</created>
@@ -58,7 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670338931589</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="register &amp; login">
+      <created>1670413410895</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670413410895</updated>
+    </task>
+    <task id="LOCAL-00003" summary="register &amp; login">
+      <created>1670413430198</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670413430198</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -78,6 +115,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="register &amp; login" />
+    <option name="LAST_COMMIT_MESSAGE" value="register &amp; login" />
   </component>
 </project>

@@ -12,7 +12,9 @@ if (isset($_SESSION['loggedIn'])){
     <div class="container">
 
         <div class="py-5 text-center">
+            <!--
             <img class="d-block mx-auto mb-4" src="/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            -->
             <h2>انشاء حساب</h2>
             <!--
             <p class="lead">فيما يلي مثال على نموذج تم إنشاؤه بالكامل باستخدام عناصر تحكم النموذج في Bootstrap. لكل مجموعة نماذج مطلوبة حالة تحقق يمكن تشغيلها بمحاولة إرسال النموذج دون استكماله.</p>
@@ -21,7 +23,9 @@ if (isset($_SESSION['loggedIn'])){
 
         <div class="row g-3">
             <div class="col-md-7 col-lg-8 m-auto">
+                <!--
                 <h4 class="mb-3">انشاء حساب</h4>
+                -->
                 <form class="needs-validation" method="post" action="/control/register_control.php" novalidate_>
                     <div class="row g-3">
 

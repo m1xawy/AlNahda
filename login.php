@@ -11,7 +11,9 @@ if (isset($_SESSION['loggedIn'])){
 <main>
     <div class="container text-center py-5">
         <div class="py-5 text-center">
+            <!--
             <img class="d-block mx-auto mb-4" src="/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+            -->
             <h2>تسجيل الدخول</h2>
             <!--
             <p class="lead">فيما يلي مثال على نموذج تم إنشاؤه بالكامل باستخدام عناصر تحكم النموذج في Bootstrap. لكل مجموعة نماذج مطلوبة حالة تحقق يمكن تشغيلها بمحاولة إرسال النموذج دون استكماله.</p>
