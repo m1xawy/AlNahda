@@ -1,36 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="register &amp; login">
+    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="dashboard link">
+      <change afterPath="$PROJECT_DIR$/account/change_password.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/account/panel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/head.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dashboard/navbar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/album.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/brand/bootstrap-logo-white.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/brand/bootstrap-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/carousel.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/dashboard.rtl.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/form-validation.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/navbar.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.rtl.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/css/bootstrap.rtl.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/js/dashboard.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/assets/js/form-validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/dashboard/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/footer.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/head.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/login.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/navbar.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AlNahda/register.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,20 +24,24 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2IXqUOG58tRdaCjHEC5NWSb7qOr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/account" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\laragon\www\AlNahda\account" />
       <recent name="C:\laragon\www\AlNahda" />
       <recent name="C:\laragon\www\AlNahda\control" />
     </key>
@@ -72,7 +56,7 @@
       <updated>1670338290480</updated>
       <workItem from="1670338293177" duration="2550000" />
       <workItem from="1670403679649" duration="3000" />
-      <workItem from="1670403691776" duration="9604000" />
+      <workItem from="1670403691776" duration="17809000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670338931589</created>
@@ -95,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670413430198</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dashboard link">
+      <created>1670414508173</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670414508173</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,8 +105,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="register &amp; login" />
-    <option name="LAST_COMMIT_MESSAGE" value="register &amp; login" />
+    <MESSAGE value="dashboard link" />
+    <option name="LAST_COMMIT_MESSAGE" value="dashboard link" />
   </component>
 </project>
