@@ -25,7 +25,7 @@ ob_start();
                         <div class="dropdown text-start">
                             <a href="#" class="d-block link-light text-decoration-none dropdown-toggle px-3" data-bs-toggle="dropdown" aria-expanded="false">
                                 <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
-                                <span class="px-3_" href="#"><?= $_SESSION['name'] == NULL ? $_SESSION['idNumber'] : $_SESSION['name'] ?></span>
+                                <span class="px-1" href="#"><?= $_SESSION['name'] == NULL ? $_SESSION['idNumber'] : $_SESSION['name'] ?></span>
                             </a>
                             <ul class="dropdown-menu text-small" style="">
                                 <li><a class="dropdown-item" href="/account/panel.php">أعدادت الحساب</a></li>

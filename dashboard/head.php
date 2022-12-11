@@ -12,5 +12,6 @@
 
     <!-- Custom styles for this template -->
     <link href="/assets/css/dashboard.rtl.css" rel="stylesheet">
+    <link href="/assets/css/custom.css" rel="stylesheet">
 </head>
 <body>

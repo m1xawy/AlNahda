@@ -13,9 +13,15 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] !== 1){
     <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="عرض/إخفاء لوحة التنقل">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="navbar-nav">
-        <div class="nav-item text-nowrap">
-            <a class="nav-link px-3" href="/logout.php">تسجيل الخروج</a>
-        </div>
+    <div class="dropdown text-start">
+        <a href="#" class="d-block link-light text-decoration-none dropdown-toggle px-3" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            <span class="px-1" href="#"><?= $_SESSION['name'] == NULL ? $_SESSION['username'] : $_SESSION['name'] ?></span>
+        </a>
+        <ul class="dropdown-menu text-small" style="">
+            <li><a class="dropdown-item" href="../account/panel.php">أعدادت الحساب</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../logout.php">تسجيل خروج</a></li>
+        </ul>
     </div>
 </header>

@@ -14,4 +14,4 @@
     <link href="/assets/css/carousel.rtl.css" rel="stylesheet">
     <link href="/assets/css/custom.css" rel="stylesheet">
 </head>
-<body>
+<body class="home">
