@@ -39,6 +39,16 @@
                                 </div>
 
                                 <div class="col-12">
+                                    <label for="exam_url" class="form-label">رابط الأختبار</label>
+                                    <div class="input-group has-validation">
+                                        <input type="text" class="form-control" name="exam_url" id="exam_url" placeholder="">
+                                        <div class="invalid-feedback">
+                                            اكتب رابط الأختبار.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
                                     <label for="memo" class="form-label">تفاصيل الدرس</label>
                                     <div class="input-group has-validation">
                                         <textarea class="form-control" name="memo" id="memo" rows="2" placeholder=""></textarea>

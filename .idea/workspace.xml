@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="added lessons view&amp;manager">
-      <change beforePath="$PROJECT_DIR$/database_backup/alnahda.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database_backup/alnahda.sql" afterDir="false" />
+    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="update db backup file">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/control/add_lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/add_lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard/addLesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/addLesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons.php" beforeDir="false" afterPath="$PROJECT_DIR$/lessons.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +58,7 @@
       <workItem from="1670773864892" duration="10000" />
       <workItem from="1670784246204" duration="10341000" />
       <workItem from="1670842486539" duration="228000" />
-      <workItem from="1670842734712" duration="9120000" />
+      <workItem from="1670842734712" duration="10545000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670338931589</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670854909250</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update db backup file">
+      <created>1670855086070</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670855086070</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,7 @@
     <MESSAGE value="user panel" />
     <MESSAGE value="users manager" />
     <MESSAGE value="added lessons view&amp;manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="added lessons view&amp;manager" />
+    <MESSAGE value="update db backup file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update db backup file" />
   </component>
 </project>

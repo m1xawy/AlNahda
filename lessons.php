@@ -33,10 +33,10 @@
                                 <iframe class="youtube-video" src="<?= $lesson['video_url'] ?>" width="100%" height="225" allowfullscreen></iframe>
 
                                 <div class="card-body">
-                                    <p class="card-text"><?= $lesson['memo'] ?></p>
+                                    <p class="card-text max-lines"><?= $lesson['memo'] ?></p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
-                                            <button type="button" class="btn btn-sm btn-outline-secondary">عرض</button>
+                                            <a href="<?= $lesson['exam_url'] ?>" class="btn btn-sm btn-outline-secondary">اختبار</a>
                                         </div>
                                         <small class="text-muted"><?= $lesson['created_at'] ?></small>
                                     </div>
