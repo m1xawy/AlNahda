@@ -8,7 +8,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link <?= isset($page) && $page == 'Album' ? 'active' : ''?>" href="album.php">
+                <a class="nav-link <?= isset($page) && $page == 'Lessons' ? 'active' : ''?>" href="lessons.php">
                     <span data-feather="file" class="align-text-bottom"></span>
                     الدروس
                 </a>

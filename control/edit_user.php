@@ -24,10 +24,12 @@ if (isset($_SESSION['loggedIn']) && $_SESSION['loggedIn'] === true && $_SESSION[
 
                                 } else {
                                     echo 'كلمة المرور غير متطابقتان';
+                                    header('refresh: .9; url= /dashboard/users.php');
                                     die();
                                 }
                             } else {
                                 echo 'كلمة المرور يجب ان تكون اكثر من 8 حروف واقل من 32 حرف';
+                                header('refresh: .9; url= /dashboard/users.php');
                                 die();
                             }
                         }else {

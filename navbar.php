@@ -17,7 +17,7 @@ ob_start();
                         <a class="nav-link <?= (isset($page) && $page === 'Home') ? ' active' : '' ?>" aria-current="page" href="/">الصفحة الرئيسية</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link <?= (isset($page) && $page === 'Album') ? ' active' : '' ?>" href="/album.php">الدروس</a>
+                        <a class="nav-link <?= (isset($page) && $page === 'Album') ? ' active' : '' ?>" href="/lessons.php">الدروس</a>
                     </li>
                 </ul>
                 <div class="d-flex">
