@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="users manager">
-      <change afterPath="$PROJECT_DIR$/control/add_lesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/delete_lesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/control/edit_lesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/addLesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/deleteLesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/editLesson.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/album.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/control/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/control/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/album.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/lessons.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dashboard/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/navbar.php" afterDir="false" />
+    <list default="true" id="57506422-068e-4a80-b915-cfc18714d8b0" name="Default Changelist" comment="added lessons view&amp;manager">
+      <change beforePath="$PROJECT_DIR$/database_backup/alnahda.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database_backup/alnahda.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +54,7 @@
       <workItem from="1670773864892" duration="10000" />
       <workItem from="1670784246204" duration="10341000" />
       <workItem from="1670842486539" duration="228000" />
-      <workItem from="1670842734712" duration="8723000" />
+      <workItem from="1670842734712" duration="9120000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1670338931589</created>
@@ -110,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670794020807</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added lessons view&amp;manager">
+      <created>1670854909250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670854909250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +130,7 @@
     <MESSAGE value="dashboard link" />
     <MESSAGE value="user panel" />
     <MESSAGE value="users manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="users manager" />
+    <MESSAGE value="added lessons view&amp;manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="added lessons view&amp;manager" />
   </component>
 </project>
